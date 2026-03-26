@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'teleop_node = turtlebot_serial.teleop_node:main',
         'arduino_bridge = turtlebot_serial.arduino_bridge_node:main',
         ],
     },
